@@ -1,0 +1,169 @@
+Room,Type,Make,Model,IpAddress
+6113 - Sequoia,20 - 22 Person Boardroom,CISCO,ROOM KIT PRO,30.92.0.190
+6113 - Sequoia,20 - 22 Person Boardroom,SAMSUNG,QM98N,30.92.1.126
+6112 - Pando ,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.186
+6112 - Pando ,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.1.125
+6111- Fern ,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.184
+6111- Fern ,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.1.124
+6110 - Daisy ,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.182
+6110 - Daisy ,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.1.123
+6109 - Aster ,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.180
+6109 - Aster ,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.1.122
+6108 - Marigold ,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.178
+6108 - Marigold ,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.1.121
+6107 - Delphinium,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.176
+6107 - Delphinium,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.1.120
+6106 - Maple ,Small Informal Meeting Room,CISCO,Room Kit Mini,30.92.0.174
+6106 - Maple ,Small Informal Meeting Room,SAMSUNG,QM43N,30.92.1.119
+Cube A ,The Cube One,SAMSUNG,QM75N,30.92.1.118
+Cube A ,The Cube One,SAMSUNG,QM75N,30.92.1.117
+Cube A ,The Cube One,SAMSUNG,QM49N,30.92.1.116
+6114 - Tjikko ,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.171
+6114 - Tjikko ,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.1.115
+6115 - Helium ,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.169
+6115 - Helium ,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.1.114
+6116 - Beryllium,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.167
+6116 - Beryllium,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.1.113
+6103 - Maize ,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.165
+6103 - Maize ,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.1.112
+6104 - Olive ,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.163
+6104 - Olive ,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.1.111
+6105 - Clover ,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.0.161
+6105 - Clover ,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.1.110
+Cube B,The Cube Two,SAMSUNG,QM75N,30.92.1.109
+Cube B,The Cube Two,SAMSUNG,QM55N,30.92.1.108
+Cube B,The Cube Two,SAMSUNG,QM49N,30.92.1.107
+6117 - Centurion,8-9 Person Meeting Room,CISCO,Room Kit,
+6117 - Centurion,8-9 Person Meeting Room,SAMSUNG,QM65N,30.92.1.106
+6102 - Barberry ,4-5 Person Meeting Room,CISCO,Room Kit Mini,
+6102 - Barberry ,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.1.105
+6101 - Hyperion ,14 Person Meeting Room,SAMSUNG,QM75N,30.92.1.104
+MCR,The Cube One & Two,CISCO,ROOM KIT PRO,30.92.0.149
+MCR,The Cube One & Two,CISCO,ROOM KIT PRO,30.92.0.148
+6301,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.253
+6301,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.62
+6302,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.251
+6302,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.61
+6303,8-9 Person Meeting Room,CISCO,Room Kit,30.92.160.249
+6303,8-9 Person Meeting Room,SAMSUNG,QM65N,30.92.162.60
+6304,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.247
+6304,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.59
+6305,Medium Informal Meeting Room,CISCO,Room Kit Mini,30.92.160.245
+6305,Medium Informal Meeting Room,SAMSUNG,QM49N,30.92.162.58
+6306,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.243
+6306,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.162.57
+6307,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.241
+6307,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.162.56
+6308,Medium Informal Meeting Room,CISCO,Room Kit Mini,30.92.160.239
+6308,Medium Informal Meeting Room,SAMSUNG,QM49N,30.92.162.55
+6309,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.237
+6309,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.162.54
+6310 - Diatom,14 Person Meeting Room,SAMSUNG,QM75N,30.92.162.53
+6313,Small Informal Meeting Room,CISCO,Room Kit Mini,30.92.160.231
+6313,Small Informal Meeting Room,SAMSUNG,QM43N,30.92.162.52
+6316,Medium Informal Meeting Room,CISCO,Room Kit Mini,30.92.160.226
+6316,Medium Informal Meeting Room,SAMSUNG,QM49N,30.92.162.51
+6328 - Octopus,8-9 Person Meeting Room,CISCO,Room Kit,30.92.160.214
+6328 - Octopus,8-9 Person Meeting Room,SAMSUNG,QM65N,30.92.162.50
+6327,Medium Informal Meeting Room,CISCO,Room Kit Mini,30.92.160.212
+6327,Medium Informal Meeting Room,SAMSUNG,QM49N,30.92.162.49
+6326,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.210
+6326,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.48
+6325,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.208
+6325,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.47
+6324,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.206
+6324,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.46
+6323,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.204
+6323,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.45
+6322,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.202
+6322,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.44
+6321,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.200
+6321,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.162.43
+6320,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.198
+6320,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.42
+6319,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.92.160.196
+6319,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.162.41
+6318 - Nautilus,10 Person Meeting Room,CISCO,Room Kit,30.92.160.194
+6318 - Nautilus,10 Person Meeting Room,SAMSUNG,QM75N,30.92.162.40
+6317 - Starfish ,Large Informal Meeting Room,SAMSUNG,QM75N,30.92.162.39
+6401,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.253
+6401,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.126
+6402,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.251
+6402,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.125
+6403,8-9 Person Meeting Room,CISCO,Room Kit,30.91.224.249
+6403,8-9 Person Meeting Room,SAMSUNG,QM65N,30.92.225.124
+6404,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.247
+6404,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.123
+6405,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.245
+6405,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.225.122
+6406,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.243
+6406,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.225.121
+6407,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.241
+6407,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.225.120
+6408,Medium Informal Meeting Room,CISCO,Room Kit Mini,30.91.224.239
+6408,Medium Informal Meeting Room,SAMSUNG,QM49N,30.92.225.119
+6409,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.237
+6409,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.225.118
+6410 - Unicorn,14 Person Meeting Room,SAMSUNG,QM75N,30.92.225.117
+6413,Small Informal Meeting Room,CISCO,Room Kit Mini,30.91.224.231
+6413,Small Informal Meeting Room,SAMSUNG,QM43N,30.92.225.116
+6416,Medium Informal Meeting Room,CISCO,Room Kit Mini,30.91.224.226
+6416,Medium Informal Meeting Room,SAMSUNG,QM49N,30.92.225.115
+6417,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.222
+6417,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.225.114
+6429 - Triceratops,8-9 Person Meeting Room,CISCO,Room Kit,30.91.224.212
+6429 - Triceratops,8-9 Person Meeting Room,SAMSUNG,QM65N,30.92.225.113
+6428,Medium Informal Meeting Room,CISCO,Room Kit Mini,30.91.224.210
+6428,Medium Informal Meeting Room,SAMSUNG,QM49N,30.92.225.112
+6427,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.208
+6427,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.111
+6426,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.206
+6426,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.110
+6425,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.204
+6425,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.109
+6424,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.202
+6424,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.108
+6423,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.200
+6423,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.107
+6422,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.198
+6422,6-7 Person Meeting Room,SAMSUNG,QM55N,30.92.225.106
+6421,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.196
+6421,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.105
+6420,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.91.224.194
+6420,4-5 Person Meeting Room,SAMSUNG,QM49N,30.92.225.104
+6419 - Pangolin,10 Person Meeting Room,CISCO,Room Kit,30.91.224.192
+6419 - Pangolin,10 Person Meeting Room,SAMSUNG,QM75N,30.92.225.103
+6418,Large Informal Meeting Room,SAMSUNG,QM75N,30.92.225.102
+6501 - Orion,14 Person Meeting Room,SAMSUNG,QM75N,30.93.1.125
+6502,8-9 Person Meeting Room,CISCO,Room Kit,30.93.0.251
+6502,8-9 Person Meeting Room,SAMSUNG,QM65N,30.93.1.124
+6503,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.93.0.249
+6503,6-7 Person Meeting Room,SAMSUNG,QM55N,30.93.1.123
+6504,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.93.0.247
+6504,6-7 Person Meeting Room,SAMSUNG,QM55N,30.93.1.122
+6505,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.93.0.139
+6505,6-7 Person Meeting Room,SAMSUNG,QM55N,30.93.1.121
+,L5 Rec Area,SAMSUNG,QM98N,30.93.1.120
+6509,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.93.0.189
+6509,6-7 Person Meeting Room,SAMSUNG,QM55N,30.93.1.119
+6508,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.93.0.187
+6508,4-5 Person Meeting Room,SAMSUNG,QM49N,30.93.1.118
+6507,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.93.0.185
+6507,6-7 Person Meeting Room,SAMSUNG,QM55N,30.93.1.117
+6506,6-7 Person Meeting Room,CISCO,Room Kit Mini,30.93.0.183
+6506,6-7 Person Meeting Room,SAMSUNG,QM55N,30.93.1.116
+6510 - Centauri,10 Person Meeting Room,CISCO,Room Kit,30.93.0.181
+6510 - Centauri ,10 Person Meeting Room,SAMSUNG,QM75N,30.93.1.115
+6511 - Trinity ,20 - 22 Person Meeting Room,SAMSUNG,QM98N,30.93.1.114
+6511 - Trinity ,20 - 22 Person Meeting Room,CISCO,ROOM KIT PLUS,30.93.0.178
+6518 - Capella,8-9 Person Meeting Room,CISCO,Room Kit,30.93.0.169
+6518 - Capella,8-9 Person Meeting Room,SAMSUNG,QM65N,30.93.1.105
+6519,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.93.0.167
+6519,4-5 Person Meeting Room,SAMSUNG,QM49N,30.93.1.104
+6520,4-5 Person Meeting Room,CISCO,Room Kit Mini,30.93.0.165
+6520,4-5 Person Meeting Room,SAMSUNG,QM49N,30.93.1.103
+6521 - Sirius,10 Person Meeting Room,CISCO,Room Kit,30.93.0.163
+6521 - Sirius,10 Person Meeting Room,SAMSUNG,QM75N,30.93.1.102
+6522 - Mintaka ,14 Person Meeting Room,SAMSUNG,QM75N,30.93.1.101
+6523 - Scuti ,20 - 22 Person Meeting Room,SAMSUNG,QM98N,30.93.1.100
+6523 - Scuti ,20 - 22 Person Meeting Room,CISCO,ROOM KIT PLUS,30.93.0.158

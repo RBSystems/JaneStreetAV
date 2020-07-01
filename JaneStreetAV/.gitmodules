@@ -1,0 +1,6 @@
+[submodule "lib2"]
+	path = lib2
+	url = git@gitlab.ux.digital:uxdigital/lib2.git
+[submodule "lib2-devices"]
+	path = lib2-devices
+	url = git@gitlab.ux.digital:uxdigital/lib2-devices.git

@@ -1,0 +1,199 @@
+<div class="alert alert-primary" role="alert">
+  Software updates on this network are distributed from {{ update_server_address }}
+</div>
+
+{% if updateAvailable %}
+<div class="jumbotron update-div">
+    <h1 class="display-4">Update available!</h1>
+    <p class="lead">An update to the control processor is available.<br />This will be run automatically out of hours but to perform it now click below.</p>
+    <h4>
+        <span class="badge badge-secondary">{{ currentVersion }}</span>
+        <i class="material-icons" style="top: 6px; position: relative;">forward</i>
+        <span class="badge badge-primary">{{ latestUpdate.Version }}</span>
+    </h4>
+    <hr class="my-4">
+    <h5>Released {{ latestUpdate.RelativeDate }}</h5>
+    <p>{{ latestUpdate.Date }}</p>
+    <p>File Size: <code>{{ latestUpdate.SizePretty }}</code></p>
+    <p>Local path on server: <code>{{ latestUpdate.LocalPath }}</code></p>
+    <p class="lead">
+        <button class="btn btn-lg btn-primary" data-update-url="{{ latestUpdate.Url }}" data-update-version="{{ latestUpdate.Version }}">Update Now</button>
+    </p>
+    <a href="#">Release Notes</a>
+</div>
+{% else %}
+<div class="jumbotron">
+    <h1 class="display-4">No updates available</h1>
+    <p class="lead">Everything here is up to date. No updates available from the update server.</p>
+    <h4><span class="badge badge-success">Current Version {{ currentVersion }}</span></h4>
+    <a href="/dashboard/programinfo">Program Info</a>
+</div>
+{% endif %}
+
+{% if otherUpdatesAvailable %}
+<div class="pt-3">
+    <h5>Other Available Updates</h5>
+    {% for file in otherUpdates %}
+    <div class="card mb-3 update-div">
+        <h6 class="card-header" style="line-height: 30px;">
+            Version {{ file.Version }}
+            {% if file.IsDebug %}<span class="badge badge-danger" style="margin-left: 5px;">Debug Build</span>
+            {% else %} <span class="badge badge-success" style="margin-left: 5px;">Release Build</span>{% endif %}
+            <button class="btn btn-sm btn-primary float-right" data-update-url="{{ file.Url }}" data-update-version="{{ file.Version }}">
+                Install this Version
+            </button>
+        </h6>
+        <div class="card-body">
+            <h6 class="card-text">Released {{ file.RelativeDate }}</h6>
+            <p class="card-text">{{ file.Date }}</p>
+            <p class="card-text">File Size: <code>{{ file.SizePretty }}</code></p>
+            <p class="card-text">Local path on server: <code>{{ file.LocalPath }}</code></p>
+            <a href="#">Release Notes</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if rollBacksAvailable %}
+<div class="pt-3">
+    <h5>Rollbacks</h5>
+    {% for file in rollBacks %}
+    <div class="card mb-3 update-div">
+        <h6 class="card-header" style="line-height: 30px;">
+            Version {{ file.Version }}
+            {% if file.IsDebug %}<span class="badge badge-danger" style="margin-left: 5px;">Debug Build</span>
+            {% else %} <span class="badge badge-success" style="margin-left: 5px;">Release Build</span>{% endif %}
+            <button class="btn btn-sm btn-secondary float-right" data-update-url="{{ file.Url }}" data-update-version="{{ file.Version }}">
+                Install this Version
+            </button>
+        </h6>
+        <div class="card-body">
+            <h6 class="card-text">Released {{ file.RelativeDate }}</h6>
+            <p class="card-text">{{ file.Date }}</p>
+            <p class="card-text">File Size: <code>{{ file.SizePretty }}</code></p>
+            <p class="card-text">Local path on server: <code>{{ file.LocalPath }}</code></p>
+            <a href="#">Release Notes</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if debugBuildAvailable %}
+<div class="pt-3">
+    <h5>Debug Builds</h5>
+    {% for file in debugBuilds %}
+    <div class="card mb-3 update-div">
+        <h6 class="card-header" style="line-height: 30px;">
+            Version {{ file.Version }}
+            {% if file.IsDebug %}<span class="badge badge-danger" style="margin-left: 5px;">Debug Build</span>
+            {% else %} <span class="badge badge-success" style="margin-left: 5px;">Release Build</span>{% endif %}
+            <button class="btn btn-sm btn-secondary float-right" data-update-url="{{ file.Url }}" data-update-version="{{ file.Version }}">
+                Install this Version
+            </button>
+        </h6>
+        <div class="card-body">
+            <h6 class="card-text">Released {{ file.RelativeDate }}</h6>
+            <p class="card-text">{{ file.Date }}</p>
+            <p class="card-text">File Size: <code>{{ file.SizePretty }}</code></p>
+            <p class="card-text">Local path on server: <code>{{ file.LocalPath }}</code></p>
+            <a href="#">Release Notes</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<!-- Modal -->
+<div class="modal fade" id="loadUpdateModal" tabindex="-1" role="dialog" aria-labelledby="loadUpdateModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 600px;" role="document">
+        <div class="modal-content text-center">
+            <div class="modal-header" style="display: inline;">
+                <h2 class="modal-title" style="font-weight: 200;" id="loadUpdateModalLabel">Update system now?</h2>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer" style="display: inline;">
+                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cancel</button>
+                <button type="button" id="loadButton" class="btn btn-danger" data-update-url="">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="loadingUpdateModal" tabindex="-1" role="dialog" aria-labelledby="loadingUpdateModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 600px;" role="document">
+        <div class="modal-content text-center">
+            <div class="modal-header" style="display: inline;">
+                <h2 class="modal-title" style="font-weight: 200;" id="H1">Updating System - Please Wait</h2>
+            </div>
+            <div class="modal-body">
+                <svg width="60px" height="60px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-dual-ring">
+                    <circle cx="50" cy="50" ng-attr-r="{{config.radius}}" ng-attr-stroke-width="{{config.width}}" ng-attr-stroke="{{config.stroke}}" ng-attr-stroke-dasharray="{{config.dasharray}}" fill="none" stroke-linecap="round" r="40" stroke-width="8" stroke="#007bff" stroke-dasharray="62.83185307179586 62.83185307179586" transform="rotate(234 50 50)">
+                        <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform>
+                    </circle>
+                </svg>
+                <p id="loadingStatusText">Status Text</p>
+            </div>
+            <div class="modal-footer" style="display: inline;">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="releaseNotesModal" tabindex="-1" role="dialog" aria-labelledby="releaseNotesModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width: 800px;" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="releaseNotesModalLabel">Release Notes</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <pre>Release Notes Content</pre>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<script>
+    $('.update-div button').click(function() {
+        var button = $(this);
+        var version = button.data("update-version");
+        var url = button.data("update-url");
+        $("#loadUpdateModal .modal-body").html("<p>Update application to version: <b>" + version + "</b> ?</p><p>This will take a short moment to download the files and then the application will restart.</p>");
+        $("#loadUpdateModal #loadButton").data("update-url", url);
+        $("#loadUpdateModal").modal('show');
+    });
+    
+    $('#loadUpdateModal #loadButton').click(function() {
+        var button = $(this);
+        var url = button.data("update-url");
+        $("#loadUpdateModal").modal('hide');
+        $('#loadingStatusText').text("Downloading from " + url);
+        $("#loadingUpdateModal").modal('show');
+
+        var postData = JSON.stringify({ "url": url });
+
+        $.post("/api/app/update", postData, function(reply) {
+            setInterval(function() {
+                var updateUrl = reply.progress_url;
+                $.get(updateUrl, function(data) {
+                    $('#loadingStatusText').text(data.result);
+                    $('#loadingUpdateModal .progress-bar').css('width', data.progress + '%').attr('aria-valuenow', data.progress);
+                    if (data.result == "Loading") {
+                        window.location.href = "/boot";
+                    }
+                });
+            }, 250);
+        });
+    });
+</script>

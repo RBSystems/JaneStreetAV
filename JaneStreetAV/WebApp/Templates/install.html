@@ -1,0 +1,70 @@
+<h4>Config Templates</h4>
+<p>This table provides a series of config templates which have been generated from this <a href="https://docs.google.com/spreadsheets/d/1YMOPzpXqH50ooMRu83eT6q71aiPJQKvG0kl4AePTlcA/edit?usp=sharing" target="_blank">Google Sheet</a>. The contents of which are downloaded on each version build and embedded into this application.</p>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">System ID</th>
+            <th scope="col">Room Number</th>
+            <th scope="col">System Type</th>
+            <th scope="col">Processor Type</th>
+            <th scope="col">Processor IP</th>
+            <th scope="col">DSP IP</th>
+            <th scope="col">DSP Namespace</th>
+            <th scope="col">Config Template Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for system in configData %}
+        <tr data-system-id="{{ system.SystemId }}">
+            <th scope="row">{{ system.SystemId }}</th>
+            <td>{{ system.RoomNumber }}</td>
+            <td>{{ system.SystemType S }}</td>
+            <td>{{ system.ProcessorType U }}</td>
+            <td>{{ system.ProcessorIp }}</td>
+            <td>{{ system.DspIpAddress }}</td>
+            <td>{{ system.DspNamespace }}</td>
+            <td>{{ system.ConfigTemplateType }}</td>
+        </tr>{% endfor %}
+    </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="loadTemplateModal" tabindex="-1" role="dialog" aria-labelledby="loadTemplateModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 600px;" role="document">
+        <div class="modal-content text-center">
+            <div class="modal-header" style="display: inline;">
+                <h2 class="modal-title" style="font-weight: 200;" id="loadTemplateModalLabel">Load defaults for template?</h2>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer" style="display: inline;">
+                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cancel</button>
+                <button type="button" id="loadButton" class="btn btn-danger" data-system-id="">Load</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('tr').click(function() {
+        var row = $(this);
+        var systemId = row.data("system-id");
+        $("#loadTemplateModal .modal-body").html("<p>Load default template for System ID: <b>" + systemId + "</b> ?</p><p>This will take a short moment to generate the files and then the application will restart.</p>");
+        $("#loadTemplateModal #loadButton").data("system-id", systemId);
+        $("#loadTemplateModal").modal('show');
+    });
+
+    $('button#loadButton').click(function() {
+        var postData = JSON.stringify({ "method": "loadtemplate", "systemid": $(this).data('system-id') });
+        $.post("/api/internal/config", postData, function(data) {
+            $("#loadTemplateModal .modal-title").html(data.response.title);
+            $("#loadTemplateModal .modal-body").html('<pre style="text-align: left;">' + data.response.message + '</pre>');
+            if (!data.response.error) {
+                $("#loadTemplateModal .modal-footer").hide();
+                setTimeout(window.location.href = "/boot", 1000);
+            }
+        });
+    });
+</script>

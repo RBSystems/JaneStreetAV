@@ -1,0 +1,637 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>UX.Lib2.Devices</name>
+  </assembly>
+  <members>
+    <member name="M:UX.Lib2.Devices.ZeeVee.ZeeVeeDeviceBase.#ctor(UX.Lib2.Devices.ZeeVee.ZeeVeeServer,System.String,UX.Lib2.Devices.ZeeVee.DeviceType)">
+      <summary>
+            The default Constructor.
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.ZeeVee.HdmiInputOutputBase.#ctor">
+      <summary>
+            The default Constructor.
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Relays.CrestronRelay.#ctor(Crestron.SimplSharpPro.Relay)">
+      <summary>
+            The default Constructor.
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Relays.CrestronRelay.Register">
+      <summary>
+            Register the relay with the control system.
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Relays.CrestronRelay.Close">
+      <summary>
+            Close the relay. If Pulse is running it will cancel the timer and remain closed.
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Relays.CrestronRelay.Open">
+      <summary>
+            Open the relay. If Pulse is running it will cancel the timer.
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Relays.CrestronRelay.Pulse(System.Int32)">
+      <summary>
+            Pulse the relay for the time specified.
+            Calling this while a pulse is running will restart the timer with the time specified
+            </summary>
+      <param name="time">Time in milliseconds</param>
+    </member>
+    <member name="P:UX.Lib2.Devices.Relays.CrestronRelay.Closed">
+      <summary>
+            Returns true if relay is closed
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Displays.Canon.CanonWux6010.LensPositionLoad(System.Int32)">
+      <summary>
+            Load a lens position by value. 1-3
+            </summary>
+      <param name="position">Position value from 1 to 3</param>
+    </member>
+    <member name="T:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase">
+      <summary>
+            A Component element of a QSys Core
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.HasControl(System.String)">
+      <summary>
+            Find if the component has a control registered with a specific name
+            </summary>
+      <param name="controlName">The name of the control</param>
+      <returns>True is control exists</returns>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.RegisterControl(System.String)">
+      <summary>
+            Regsiter and return a Control object syncronously.
+            Do not use in main thread!!
+            </summary>
+      <param name="controlName">The name of the control</param>
+      <returns>The QsysControl object</returns>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.RegisterControlAsync(UX.Lib2.Devices.Audio.QSC.Components.RegisterControlResponse,System.String)">
+      <summary>
+            Register a control with the component
+            </summary>
+      <param name="responseCallBack">Callback delegate used to respond on result</param>
+      <param name="controlName">
+      </param>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.UpdateAsync">
+      <summary>
+            Force an update from the core for the controls asyncronously.
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.GetEnumerator">
+      <summary>
+      </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.Core">
+      <summary>
+            The QSys core which the component belongs to
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.Name">
+      <summary>
+            The name of the Component
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.Type">
+      <summary>
+            The type of component in the core
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.Item(System.String)">
+      <summary>
+            Access to the controls registered to the component
+            </summary>
+      <param name="controlName">The name of the control</param>
+      <returns>A QsysControl object</returns>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.ComponentBase.Properties">
+      <summary>
+            The properties of the component
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Cisco.Call.Status">
+      <summary>
+            The status of the call
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Cisco.Call.InProgress">
+      <summary>
+            True if the call is in progress
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Cisco.Call.Connected">
+      <summary>
+            True if the call is connected
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Cisco.Call.OnHold">
+      <summary>
+            True if call is on hold
+            </summary>
+    </member>
+    <member name="T:UX.Lib2.Devices.Audio.QSC.CoreStatus">
+      <summary>
+            Status of a QSys Core
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.CoreStatus.ToString">
+      <summary>
+            The status summary of the core as a string
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.CoreStatus.Code">
+      <summary>
+            The status code of the Core
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.CoreStatus.String">
+      <summary>
+            The status description of the Core
+            </summary>
+    </member>
+    <member name="T:UX.Lib2.Devices.ZeeVee.ZeeVeeServer">
+      <summary>
+            A ZeeVee MaestroZ Server Connection
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.ZeeVee.ZeeVeeServer.#ctor(System.String)">
+      <summary>
+            Create an instance of a server controlled video distribution system
+            </summary>
+      <param name="address">The IP Address or Hostname to connect using telnet</param>
+    </member>
+    <member name="M:UX.Lib2.Devices.ZeeVee.ZeeVeeServer.Initialize">
+      <summary>
+            Initialize the connection and discover the devices and status
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.ZeeVee.ZeeVeeServer.JoinFastSwitched(UX.Lib2.Devices.ZeeVee.ZeeVeeEncoder,UX.Lib2.Devices.ZeeVee.ZeeVeeDecoder)">
+      <summary>
+            Fast switch a decoder to an encoder
+            </summary>
+      <param name="encoder">The ZyperHD Encoder, use null for none</param>
+      <param name="decoder">The ZyperHD Decoder</param>
+    </member>
+    <member name="P:UX.Lib2.Devices.ZeeVee.ZeeVeeServer.Devices">
+      <summary>
+            The devices discovered by the server
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Google.GoogleMeet.#ctor(Crestron.SimplSharpPro.ComPort)">
+      <summary>
+            The default Constructor.
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Exterity.AvediaServer.#ctor(System.String)">
+      <summary>
+            The default Constructor.
+            </summary>
+    </member>
+    <member name="T:UX.Lib2.Devices.Audio.QSC.QsysControl">
+      <summary>
+            A control of a Component object on a QSys Core
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysControl.Trigger">
+      <summary>
+            Trigger this control
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysControl.UpdateAsync">
+      <summary>
+            Force an update from the core for the control asyncronously
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysControl.RampValue(System.Single,System.Double)">
+      <summary>
+            Ramp the value internally in the qsys
+            </summary>
+      <param name="value">Target value</param>
+      <param name="time">Time in seconds to ramp to new value</param>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysControl.RampPosition(System.Single,System.Double)">
+      <summary>
+            Ramp the position internally in the qsys
+            </summary>
+      <param name="position">Target position</param>
+      <param name="time">Time in seconds to ramp to new value</param>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysControl.ToString">
+      <summary>
+            A summary of the QsysControl
+            </summary>
+      <returns>String of summary</returns>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysControl.Component">
+      <summary>
+            The Component which owns this instance of a control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysControl.Name">
+      <summary>
+            The name of the Control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysControl.String">
+      <summary>
+            Get or set the string value of the control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysControl.Value">
+      <summary>
+            Set or get numeric value of the control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysControl.Position">
+      <summary>
+            Get or set position of the control between 0 and 1 as a float.
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysControl.PositionScaled">
+      <summary>
+            Get or set the control position based upon a ushort value used for Crestron type interfacing
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.GenericComponent.RegisterControlAsync(UX.Lib2.Devices.Audio.QSC.Components.RegisterControlResponse,System.String)">
+      <summary>
+            Register a control with the component
+            </summary>
+      <param name="responseCallBack">Callback delegate used to respond on result</param>
+      <param name="controlName">
+      </param>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.Mute">
+      <summary>
+            Mute the Audio
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.Unmute">
+      <summary>
+            Unmute the Audio
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.Mixer">
+      <summary>
+            The mixer which contains this item
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.Name">
+      <summary>
+            The name of the item
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.Number">
+      <summary>
+            The 1 based index number of the item
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.Label">
+      <summary>
+            The label if the mixer uses labels, otherwise it returns empty string
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.ItemType">
+      <summary>
+            The type of the item
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.GainValue">
+      <summary>
+            Set or get the gain by value
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.Inverted">
+      <summary>
+            Set the inverted state of the audio
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.ControlType">
+      <summary>
+            Get the audio level control type. Default is NotDefined.
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.SupportsLevel">
+      <summary>
+            True if this control supports Level control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.Level">
+      <summary>
+            Set or Get the Audio Level / Volume Control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.LevelString">
+      <summary>
+            Get the Audio / Volume level as a string description
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.SupportsMute">
+      <summary>
+            True if this control supports Mute control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerItem.Muted">
+      <summary>
+            Set of Get the Audio Mute status
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerInput.Name">
+      <summary>
+            Returns the label if it exists, otherwise it's a generic name based on the index component name
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Cisco.Calls.Count">
+      <summary>
+            The total count of calls
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Cisco.Calls.ConnectedCount">
+      <summary>
+            The count of calls which are currently connected
+            </summary>
+    </member>
+    <member name="T:UX.Lib2.Devices.Audio.QSC.Components.Gain">
+      <summary>
+            A gain type component
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.Gain.Mute">
+      <summary>
+            Mute the Audio
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.Gain.Unmute">
+      <summary>
+            Unmute the Audio
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.Gain.ControlType">
+      <summary>
+            Get the audio level control type. Default is NotDefined.
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.Gain.SupportsLevel">
+      <summary>
+            True if this control supports Level control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.Gain.Level">
+      <summary>
+            Set or Get the Audio Level / Volume Control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.Gain.LevelString">
+      <summary>
+            Get the Audio / Volume level as a string description
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.Gain.SupportsMute">
+      <summary>
+            True if this control supports Mute control
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.Gain.Muted">
+      <summary>
+            Set of Get the Audio Mute status
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.Play">
+      <summary>
+            Start playing
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.Stop">
+      <summary>
+            Stop the player
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.Pause">
+      <summary>
+            Pause playback
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.SkipForward">
+      <summary>
+            Play next file
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.SkipBack">
+      <summary>
+            Play previous file
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.SendCommandPress(UX.Lib2.DeviceSupport.TransportDeviceCommand)">
+      <summary>
+            Not implemented!
+            </summary>
+      <param name="command">
+      </param>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.SendCommandRelease(UX.Lib2.DeviceSupport.TransportDeviceCommand)">
+      <summary>
+            Not implemented!
+            </summary>
+      <param name="command">
+      </param>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.Playing">
+      <summary>
+            Returns true if the player is playing
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.Stopped">
+      <summary>
+            Returns true if the player is stopped
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.Paused">
+      <summary>
+            Returns true if the player is paused
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.Progress">
+      <summary>
+            Get the current file progress as a scaled ushort value
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.Time">
+      <summary>
+            Get the current file progress in time
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.Remaining">
+      <summary>
+            Get the current file progress remaining in time
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.AudioFilePlayer.FileName">
+      <summary>
+            Get the current playing filename
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Exterity2.AvediaServer.#ctor(System.String)">
+      <summary>
+            The default Constructor.
+            </summary>
+    </member>
+    <member name="T:UX.Lib2.Devices.Audio.QSC.Components.RegisterControlResponse">
+      <summary>
+            A response called on result of trying to register a control for a component
+            </summary>
+      <param name="success">True is it was successull</param>
+      <param name="control">The control object if successful, null if failed</param>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.Components.MixerOutput.Name">
+      <summary>
+            Returns the label if it exists, otherwise it's a generic name based on the index component name
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Cisco.CiscoTelePresenceCodec.StartSession">
+      <summary>
+            Call to start a session with the HTTPS Client to the codec.
+            This will close down an existing session prior to calling the begin session call.
+            </summary>
+    </member>
+    <member name="T:UX.Lib2.Devices.Audio.QSC.QsysChangeGroup">
+      <summary>
+            A change group used to notify changes to component controls.
+            You need to add a control or component to this before using
+            any of the other methods!
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysChangeGroup.Poll">
+      <summary>
+            Ask for an update of any controls registered to the group
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysChangeGroup.PollAuto(System.Double)">
+      <summary>
+            Setup automatic poll responses every so many seconds
+            </summary>
+      <param name="seconds">Time in seconds for the poll interval</param>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysChangeGroup.Core">
+      <summary>
+            The Core that owns this object
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysChangeGroup.Id">
+      <summary>
+            The ID string of the change group
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Mersive.SolsticePod.Boot">
+      <summary>
+            Boots all users off the solstice, clears posts and returns to splash screen
+            </summary>
+    </member>
+    <member name="T:UX.Lib2.Devices.Audio.QSC.QsysCore">
+      <summary>
+            An instance of control for a connection to a QSys Core using the QRC Protocol
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysCore.#ctor(System.Collections.Generic.IList{System.String},System.String)">
+      <summary>
+            Create an instance of a QsysCore
+            </summary>
+      <param name="deviceAddresses">The hostnames or ip addresses of the core(s)</param>
+      <param name="name">
+      </param>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysCore.#ctor(System.Collections.Generic.IList{System.String},System.String,System.Int32)">
+      <summary>
+            Create an instance of a QsysCore
+            </summary>
+      <param name="deviceAddresses">The hostnames or ip addresses of the core(s)</param>
+      <param name="port">Override the default TCP port of 1710</param>
+      <param name="name">
+      </param>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysCore.Initialize(System.Collections.Generic.IEnumerable{System.String})">
+      <summary>
+            Initialize the connection to the Core
+            </summary>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysCore.GetChangeGroup(System.String)">
+      <summary>
+            Gets a change group by ID, if it doesn't already exist it will be created
+            </summary>
+      <param name="id">Change group ID</param>
+      <returns>The change group object</returns>
+    </member>
+    <member name="M:UX.Lib2.Devices.Audio.QSC.QsysCore.GetEnumerator">
+      <summary>
+            Get the Enmerator of the object
+            </summary>
+    </member>
+    <member name="E:UX.Lib2.Devices.Audio.QSC.QsysCore.HasIntitialized">
+      <summary>
+            Event called once the connection to the Core has Initialized
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysCore.Platform">
+      <summary>
+            The Platform desciption of the Core
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysCore.State">
+      <summary>
+            The value of the Core state
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysCore.DesignName">
+      <summary>
+            The current running design name of the Core
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysCore.DesignCode">
+      <summary>
+            The current unique value assigned to the current design running on the Core
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysCore.IsRedundant">
+      <summary>
+            True if this Core is part of a redundant design
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysCore.IsEmulator">
+      <summary>
+            True if the Core is running as an Emulator
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysCore.Status">
+      <summary>
+            Access to the current Core Status info
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysCore.Initialized">
+      <summary>
+            True if Core is connected and initialized
+            </summary>
+    </member>
+    <member name="P:UX.Lib2.Devices.Audio.QSC.QsysCore.Item(System.String)">
+      <summary>
+            Access a Named Component on the Core
+            </summary>
+      <param name="componentName">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:UX.Lib2.Devices.Audio.QSC.QsysInitializedEventHandler">
+      <summary>
+            The event handler for an Initalized event on a Core connetion
+            </summary>
+      <param name="core">The instance of the QsysCore which has Initialized</param>
+    </member>
+  </members>
+</doc>

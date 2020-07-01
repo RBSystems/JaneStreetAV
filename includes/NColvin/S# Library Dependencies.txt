@@ -1,0 +1,2308 @@
+CrestronSimplSharpProHelperLibrary
+
+CrestronWebSocketSupportLibrary
+	MultiPartDataParser.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpWebServer.dll
+	SSharpWebSocketLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+Db4objects.Db4o
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+Db4objects.Db4o.Instrumentation
+	Db4objects.Db4o.dll
+	SSCoreTupleLibrary.dll
+	SSharpCecilFlowAnalysis.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCecilLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+Db4objects.Db4o.Linq
+	Db4objects.Db4o.dll
+	SSCoreTupleLibrary.dll
+	SSharpCecilFlowAnalysis.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCecilLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoLinqExpressionsLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+Db4objects.Db4o.NativeQueries
+	Db4objects.Db4o.dll
+	Db4objects.Db4o.Instrumentation.dll
+	SSCoreTupleLibrary.dll
+	SSharpCecilFlowAnalysis.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCecilLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+HelloWorldService
+	SSharpWebServerSoapAttributes.dll
+
+ILFunc
+
+Jayrock
+	Jayrock.Json.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+Jayrock.Json
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+Media Server Object Router 4.0
+
+Mono.Cecil.Pdb
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCecilLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+Mono.Cecil.Rocks
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCecilLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+MultiPartDataParser
+	SSharpCrestronExtensionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+MZClient
+	SSCoreMiniDiagnosticsLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpZeroConfLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+Network.Bonjour
+	Network.dll
+	Network.Dns.dll
+	Network.ZeroConf.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+Network
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+Network.Dns
+	Network.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+Network.ZeroConf
+	Network.dll
+	Network.Dns.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+Novell.Directory.Ldap
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConsoleLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+NUnitLiteMockAssembly
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpNunitLite.dll
+	SSharpNUnitLiteRunner.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpUNCIOLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoUNCConsoleLibrary.dll
+	SSMonoUNCIOLibrary.dll
+
+RabbitMQ.Client
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProNetLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SIMPLSharpLoggingLibrary
+
+SSBouncyCastleCryptoLibrary
+
+SSCoreDrawingTypeConverters
+	SSCoreMiniDiagnosticsLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCollectionsLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefComponentModelLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefSpecializedCollectionsLibrary.dll
+	SSRefSystemResources.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSCoreEnumerableExtensionsLibrary
+	SSCoreTupleLibrary.dll
+
+SSCoreExtensionLibrary
+	SSharpCrestronExtensionsLibrary.dll
+
+SSCoreLinqExpressionsLibrary
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+
+SSCoreLinqQueryableLibrary
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+
+SSCoreMiniDiagnosticsLibrary
+
+SSCoreProDataflowLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpProTaskExtensions.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSCoreReflectionExtensionsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+
+SSCoreResourceLibrary
+
+SSCoreTupleLibrary
+
+SSCoreXmlLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSCoreXmlLinqLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSCoreXmlLinqSchemaLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreMiniDiagnosticsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlLinqLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSCoreXmlSchemaLibrary.dll
+	SSCoreXmlXPathLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSCoreXmlLinqXpathLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlLinqLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSCoreXmlXPathLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSCoreXmlReaderWriterLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSCoreXmlSchemaLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreMiniDiagnosticsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSCoreXmlXPathLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSCoreXmlXPathLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpADOHelper
+	SSharpCrestronExtensionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSharpAnsiString
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSharpBigMathLibrary
+	SSharpCrestronExtensionsLibrary.dll
+
+SSharpBigMathSpecializedCollectionLibrary
+	SSharpBigMathLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+
+SSharpCecilFlowAnalysis
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCecilLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSharpCimba
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSharpCimbaServer
+	SSCoreTupleLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSharpCompactFormatterPlus
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpISerial.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSharpConcurrentGenericCollections
+	SSharpAnsiString.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpPowerCollections.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSharpCrestronExtensionsLibrary
+
+SSharpCultureLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+
+SSharpDateTimeLibrary
+	SSharpCrestronExtensionsLibrary.dll
+
+SSharpDmapLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDotNetZlib.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConsoleLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+
+SSharpDnsLibrary
+
+SSharpDotNetZip
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConsoleLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSharpDotNetZlib
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConsoleLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSharpDynamicLinqLibrary
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreLinqQueryableLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+
+SSharpEsprimaLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlLinqLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpNewtonsoftJsonLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpExpressionToStringLibrary
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+
+SSharpFizzler
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpFizzlerForHtmlAgilityPack
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSCoreXmlXPathLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpFizzler.dll
+	SSharpHtmlAgilityPack.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpFizzlerForXml
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpFizzler.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpFluentAssertionsLibrary
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSharpHtmlAgilityPack
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSCoreXmlXPathLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpICloudLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpISerial
+
+SSharpJsonDiffPatchLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlLinqLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpNewtonsoftJsonLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpJWTLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSharpLambdaParserLibrary
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+
+SSharpLinqToCsvLibrary
+	SSCoreMiniDiagnosticsLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCollectionsLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefComponentModelLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefSpecializedCollectionsLibrary.dll
+	SSRefSystemResources.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSharpLog4NetLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoDiagnosticsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+
+SSharpLog4NetUNCFileAppenders
+	SSCoreTupleLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpLog4NetLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpUNCIOLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoDiagnosticsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+
+SSharpM2MqttLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpMultithreadGenericCollections
+	SSharpAnsiString.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpPowerCollections.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSharpNewtonsoftJsonLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlLinqLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpNinjectLibrary
+	ILFunc.dll
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+
+SSharpNovellDirectoryLdapLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpLog4NetLibrary.dll
+	SSharpProTaskExtensions.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoDiagnosticsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoProIOLibrary.dll
+	SSMonoProNetLibrary.dll
+	SSMonoProNetWebAsyncLibrary.dll
+	SSMonoProNetWebLibrary.dll
+	SSMonoProSslStreamLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpNSubstituteLibrary
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpNunitLite
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpUNCIOLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoUNCConsoleLibrary.dll
+	SSMonoUNCIOLibrary.dll
+
+SSharpNUnitLiteRunner
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpNunitLite.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpUNCIOLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoUNCConsoleLibrary.dll
+	SSMonoUNCIOLibrary.dll
+
+SSharpPowerCollections
+
+SSharpProCrestronThreadExtensions
+
+SSharpProJintLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlLinqLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpEsprimaLibrary.dll
+	SSharpNewtonsoftJsonLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpProTaskExtensions
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpProThreadingLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+
+SSharpReflectionExtensionsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+
+SSharpReflectionTypeInfoLibrary
+
+SSharpRestSharpLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLinqLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpRhinoMocksLibrary
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpSerializerLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+
+SSharpSGMLReader
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpSharpSnmpLibLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSharpSharpSnmpMibLibrary
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpSharpSnmpLibLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSharpShouldlyLibrary
+	SSCoreEnumerableExtensionsLibrary.dll
+	SSCoreLinqExpressionsLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpExpressionToStringLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSharpSmartThreadPool
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+
+SSharpSpecializedCollectionsLibrary
+
+SSharpThreadingLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+
+SSharpTwilioLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlLinqLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpJWTLibrary.dll
+	SSharpNewtonsoftJsonLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpTwilioProLibrary
+	SSCoreExtensionLibrary.dll
+	SSCoreReflectionExtensionsLibrary.dll
+	SSCoreResourceLibrary.dll
+	SSCoreTupleLibrary.dll
+	SSCoreXmlLibrary.dll
+	SSCoreXmlLinqLibrary.dll
+	SSCoreXmlReaderWriterLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpJWTLibrary.dll
+	SSharpNewtonsoftJsonLibrary.dll
+	SSharpProTaskExtensions.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpReflectionTypeInfoLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetHttpLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoProIOLibrary.dll
+	SSMonoProNetWebAsyncLibrary.dll
+	SSMonoProNetWebLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpTypeNameFormatterLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+
+SSharpUNCIOLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSharpWebServer
+	MultiPartDataParser.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpWebSocketLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpWebServerRunner
+	MultiPartDataParser.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpWebServer.dll
+	SSharpWebServerWrapper.dll
+	SSharpWebSocketLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpWebServerSoapAttributes
+
+SSharpWebServerSoapHandler
+	MultiPartDataParser.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpWebServer.dll
+	SSharpWebServerSoapAttributes.dll
+	SSharpWebSocketLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpWebServerWebHandlerFactory
+	MultiPartDataParser.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpWebServer.dll
+	SSharpWebSocketLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpWebServerWrapper
+	MultiPartDataParser.dll
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpWebServer.dll
+	SSharpWebSocketLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpWebSocketClientLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpWebSocketLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSharpZeroConfLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSharpZip
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMono.X509Certificates.Utility
+	SSCoreTupleLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpUNCIOLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoUNCIOLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoCacheLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoCecilLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoCollectionsLibrary
+
+SSMonoCollectionsObjectModelLibrary
+
+SSMonoComponentBackgroundWorkerLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSMonoComponentModelLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoConcurrentCollectionsLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSMonoConfigurationLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoConsoleLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoContractLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoCryptographyExtensions
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoCryptographyLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoCryptographyPkcsLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoDateTimeOffsetTypeConverter
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoDiagnosticsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoDiagnosticUNCTextWriterTraceListener
+	SSCoreTupleLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpUNCIOLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoDiagnosticsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoUNCIOLibrary.dll
+
+SSMonoDirectoryServicesLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpLog4NetLibrary.dll
+	SSharpNovellDirectoryLdapLibrary.dll
+	SSharpProTaskExtensions.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoDiagnosticsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoProIOLibrary.dll
+	SSMonoProNetLibrary.dll
+	SSMonoProNetWebAsyncLibrary.dll
+	SSMonoProNetWebLibrary.dll
+	SSMonoProSslStreamLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoDnsLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConsoleLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSMonoDrawingTypeConverters
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoGenericCollectionsLibrary
+
+SSMonoIOLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoLinqExpressionsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+
+SSMonoLinqExtensionsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoLinqExpressionsLibrary.dll
+
+SSMonoMiniCecilLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoNatLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoNetHttpLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpProTaskExtensions.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoProIOLibrary.dll
+	SSMonoProNetWebAsyncLibrary.dll
+	SSMonoProNetWebLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoNetLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSMonoNetMailLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoComponentBackgroundWorkerLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoNetWebLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoNetworkInformationLibrary
+	SSMonoSupportLibrary.dll
+
+SSMonoProCacheLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoProComponentModelLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSMonoProConcurrentCollectionsLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSMonoProDataflowLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSMonoProDiagnosticsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCollectionsLibrary.dll
+	SSMonoComponentModelLibrary.dll
+	SSMonoConfigurationLibrary.dll
+	SSMonoDiagnosticsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSpecializedCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoProIOLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpProTaskExtensions.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSMonoProNetLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSMonoProNetMailLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoComponentBackgroundWorkerLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetMailLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoProNetWebAsyncLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpProTaskExtensions.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoProIOLibrary.dll
+	SSMonoProNetWebLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoProNetWebLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoProSslStreamLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoProTaskLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoProTaskLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSMonoProThreadingLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSMonoSerializationLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCecilLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoGenericCollectionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+
+SSMonoSpecializedCollectionsLibrary
+
+SSMonoSsdpClientLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoSsdpLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoSslStreamLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoSupportLibrary
+
+SSMonoThreadingLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoThreadPoolLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+
+SSMonoTupleLibrary
+
+SSMonoUNCConsoleLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpUNCIOLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoUNCIOLibrary.dll
+
+SSMonoUNCIOLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpUNCIOLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+
+SSMonoUPnPLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoSsdpClientLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoUPnPServerLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoNetWebLibrary.dll
+	SSMonoNetworkInformationLibrary.dll
+	SSMonoProThreadingLibrary.dll
+	SSMonoSsdpLibrary.dll
+	SSMonoSslStreamLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoWebLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoWebLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoX509CertificatesLibrary
+	SSCoreTupleLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSMonoX509UtilityProgram
+	SSCoreTupleLibrary.dll
+	SSharpCimba.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSharpUNCIOLibrary.dll
+	SSMono.X509Certificates.Utility.dll
+	SSMonoConcurrentCollectionsLibrary.dll
+	SSMonoCryptographyExtensions.dll
+	SSMonoCryptographyLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoNetLibrary.dll
+	SSMonoSupportLibrary.dll
+	SSMonoThreadingLibrary.dll
+	SSMonoThreadPoolLibrary.dll
+	SSMonoUNCIOLibrary.dll
+	SSMonoX509CertificatesLibrary.dll
+
+SSMonoZeroconfLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSMonoIOLibrary.dll
+	SSMonoSupportLibrary.dll
+
+SSPortableLicensingLibrary
+	SSBouncyCastleCryptoLibrary.dll
+
+SSRefBCLDebugLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSRefCompatibilityLibrary.dll
+
+SSRefCollectionsLibrary
+
+SSRefCompatibilityLibrary
+	SSharpCrestronExtensionsLibrary.dll
+
+SSRefComponentModelLibrary
+	SSCoreMiniDiagnosticsLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCollectionsLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefSpecializedCollectionsLibrary.dll
+	SSRefSystemResources.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSRefConcurrentCollectionsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefThreadingLibrary.dll
+	SSRefTupleLibrary.dll
+
+SSRefContractsLibrary
+
+SSRefDateTimeOffsetTypeConverter
+	SSCoreMiniDiagnosticsLibrary.dll
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCollectionsLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefComponentModelLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefSpecializedCollectionsLibrary.dll
+	SSRefSystemResources.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSRefGenericCollectionsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefMscorlibResources.dll
+	SSRefResourceLibrary.dll
+	SSRefSystemResources.dll
+	SSRefSytemCoreResources.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSRefMscorlibResources
+	SSharpCrestronExtensionsLibrary.dll
+
+SSRefNumericsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSRefObjectModelCollectionsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefMscorlibResources.dll
+	SSRefResourceLibrary.dll
+	SSRefSpecializedCollectionsLibrary.dll
+	SSRefSystemResources.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSRefProConcurrentCollectionsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefConcurrentCollectionsLibrary.dll
+	SSRefProThreadingLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefSytemCoreResources.dll
+	SSRefThreadingLibrary.dll
+	SSRefTimeZoneInfoLibrary.dll
+	SSRefTupleLibrary.dll
+
+SSRefProThreadingLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefConcurrentCollectionsLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefSytemCoreResources.dll
+	SSRefThreadingLibrary.dll
+	SSRefTimeZoneInfoLibrary.dll
+	SSRefTupleLibrary.dll
+
+SSRefResourceLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSRefSpecializedCollectionsLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefSystemResources.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSRefSystemResources
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSRefSytemCoreResources
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpCultureLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+	SSRefResourceLibrary.dll
+	SSRefTimeZoneInfoLibrary.dll
+
+SSRefThreadingLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefCompatibilityLibrary.dll
+
+SSRefThreadLocalLibrary
+	SSCoreResourceLibrary.dll
+
+SSRefThreadPoolLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpReflectionExtensionsLibrary.dll
+	SSharpThreadingLibrary.dll
+	SSRefTupleLibrary.dll
+
+SSRefTimeZoneInfoLibrary
+	SSharpCrestronExtensionsLibrary.dll
+	SSharpDateTimeLibrary.dll
+	SSRefCompatibilityLibrary.dll
+
+SSRefTupleLibrary
+	SSharpCrestronExtensionsLibrary.dll
+
+System.Half
+

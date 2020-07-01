@@ -1,0 +1,498 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30840BD9-AC80-4E74-92AC-4D734F7D5A6A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JaneStreetAV</RootNamespace>
+    <AssemblyName>JaneStreetAV</AssemblyName>
+    <ProjectTypeGuids>{0B4745B0-194B-4BB6-8E21-E9057CA92230};{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>SmartDeviceProject1</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AllowedReferenceRelatedFileExtensions>.allowedReferenceRelatedFileExtensions</AllowedReferenceRelatedFileExtensions>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FileAlignment>512</FileAlignment>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <AllowedReferenceRelatedFileExtensions>.allowedReferenceRelatedFileExtensions</AllowedReferenceRelatedFileExtensions>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FileAlignment>512</FileAlignment>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Automate_VX, Version=1.0.0.26536, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\Automate_VX\Automate_VX.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.DeviceSupport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.DeviceSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.DM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.DM.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.EthernetCommunications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.EthernetCommunications.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Fusion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.Fusion.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Gateways, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.Gateways.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.GeneralIO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.GeneralIO.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Keypads, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.Keypads.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.UC.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="CrestronSimplSharpProHelperLibrary, Version=1.0.0.10744, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\CrestronSimplSharpProHelperLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CrestronWebSocketSupportLibrary, Version=1.0.0.11182, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\CrestronWebSocketSupportLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="ILFunc, Version=1.0.0.10745, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\ILFunc.dll</HintPath>
+    </Reference>
+    <Reference Include="Jayrock, Version=0.9.16530.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\Jayrock.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="SimplSharpAutoUpdateInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SimplSharpAutoUpdateInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpCustomAttributesInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SimplSharpCustomAttributesInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpCWSHelperInterface, Version=2.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SimplSharpCWSHelperInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpHelperInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SimplSharpHelperInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpNewtonsoft, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SimplSharpNewtonsoft.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpPro, Version=1.5.3.17, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SimplSharpPro.exe</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpReflectionInterface, Version=1.0.5583.25238, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\ProgramData\Crestron\SDK\SimplSharpReflectionInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SSCoreTupleLibrary, Version=1.0.0.10378, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSCoreTupleLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpADOHelper, Version=1.0.7216.10932, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpADOHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpBigMathLibrary, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpBigMathLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpBigMathSpecializedCollectionLibrary, Version=1.0.0.10872, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpBigMathSpecializedCollectionLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpCecilFlowAnalysis, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpCecilFlowAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpCrestronExtensionsLibrary, Version=1.0.0.10392, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpCrestronExtensionsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpDateTimeLibrary, Version=1.0.0.10412, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpDateTimeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpDotNetZip, Version=1.9.1.8, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpDotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpProTaskExtensions, Version=1.0.0.10521, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpProTaskExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpReflectionExtensionsLibrary, Version=1.0.0.8161, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpReflectionExtensionsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpThreadingLibrary, Version=1.0.0.10386, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpThreadingLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpZip, Version=0.86.0.518, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSharpZip.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoConcurrentCollectionsLibrary, Version=1.0.0.10407, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoConcurrentCollectionsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoConsoleLibrary, Version=1.0.0.10586, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoConsoleLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoCryptographyExtensions, Version=1.0.0.10431, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoCryptographyExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoCryptographyLibrary, Version=1.0.0.10423, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoCryptographyLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoIOLibrary, Version=1.0.0.10410, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoIOLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoNetHttpLibrary, Version=1.0.0.11305, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoNetHttpLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoNetLibrary, Version=1.0.0.10460, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoNetLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoNetWebLibrary, Version=1.0.0.10607, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoNetWebLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoProIOLibrary, Version=1.0.0.10664, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoProIOLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoProNetLibrary, Version=1.0.0.10550, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoProNetLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoProNetWebAsyncLibrary, Version=1.0.0.14384, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoProNetWebAsyncLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoProNetWebLibrary, Version=1.0.0.14383, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoProNetWebLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoProTaskLibrary, Version=1.0.0.10494, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoProTaskLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoProThreadingLibrary, Version=1.0.0.10427, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoProThreadingLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoSslStreamLibrary, Version=1.0.0.10560, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoSslStreamLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoSupportLibrary, Version=1.0.0.10389, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoSupportLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoThreadingLibrary, Version=1.0.0.10416, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoThreadingLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoThreadPoolLibrary, Version=1.0.0.10435, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoThreadPoolLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoTupleLibrary, Version=1.0.0.11194, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoTupleLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoWebLibrary, Version=1.0.0.10524, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoWebLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SSMonoX509CertificatesLibrary, Version=1.0.0.10488, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\NColvin\SSMonoX509CertificatesLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="UX.Lib2, Version=2.0.7447.16820, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\uxlib\UX.Lib2.dll</HintPath>
+    </Reference>
+    <Reference Include="UX.Lib2.Devices, Version=2.0.7447.16827, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\includes\uxlib\UX.Lib2.Devices.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlSystem.cs" />
+    <Compile Include="Devices\BigDmSwitcher.cs" />
+    <Compile Include="Devices\DmSwitcher.cs" />
+    <Compile Include="Devices\DmSwitcherBase.cs" />
+    <Compile Include="Devices\OneBeyond.cs" />
+    <Compile Include="Devices\QSC\QsysIoFrame.cs" />
+    <Compile Include="Devices\Sources\TVSource.cs" />
+    <Compile Include="Devices\Sources\PCSource.cs" />
+    <Compile Include="Devices\Sources\GenericSource.cs" />
+    <Compile Include="Models\ADisplay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\ARoom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\ASource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\ASystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\AuditoriumSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\ConfigManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\DefaultConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\DisplayConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\DspDeviceConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\DspRoomConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\FusionConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\OneBeyondCameraConfig.cs" />
+    <Compile Include="Models\Config\RoomConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\SourceConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\SwitcherConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\SystemConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\Templates\Auditorium.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Config\Templates\Classroom.cs" />
+    <Compile Include="Models\Config\Templates\FusionRooms.cs" />
+    <Compile Include="Models\Config\Templates\Gym.cs" />
+    <Compile Include="Models\Config\Templates\FireMonitor.cs" />
+    <Compile Include="Models\Config\Templates\RecArea.cs" />
+    <Compile Include="Models\Config\Templates\RoomMonitoring.cs" />
+    <Compile Include="Models\Config\Templates\TemplateBase.cs" />
+    <Compile Include="Models\Config\UserInterface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\ClassroomSystem.cs" />
+    <Compile Include="Models\DateFormatter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\FireAlarmListener.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\FireAlarmListenerSocket.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\FireAlarmMonitorSystem.cs" />
+    <Compile Include="Models\MeetingSpaceSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\RoomMonitoringSystem.cs" />
+    <Compile Include="Models\Rooms\Auditorium.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Rooms\Classroom.cs" />
+    <Compile Include="Models\Rooms\MultiPurpose.cs" />
+    <Compile Include="Models\Rooms\Gym.cs" />
+    <Compile Include="Models\Rooms\MeetingRoom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Rooms\MonitoredRoom.cs" />
+    <Compile Include="Models\Rooms\RecRoom.cs" />
+    <Compile Include="Models\Rooms\VCRoom.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\MpcUIController.cs" />
+    <Compile Include="UI\MpcVolume.cs" />
+    <Compile Include="UI\RoomUIController.cs" />
+    <Compile Include="UI\JSIcons.cs" />
+    <Compile Include="UI\SmartObjects\AudioFaderList.cs" />
+    <Compile Include="UI\SmartObjects\AudioFaderListItem.cs" />
+    <Compile Include="UI\SmartObjects\CiscoLargeIconList.cs" />
+    <Compile Include="UI\SmartObjects\CiscoLargeIconListItem.cs" />
+    <Compile Include="UI\SmartObjects\CiscoSmallIconList.cs" />
+    <Compile Include="UI\SmartObjects\CiscoSmallIconListItem.cs" />
+    <Compile Include="UI\SmartObjects\DeskSceneList.cs" />
+    <Compile Include="UI\SmartObjects\DeskSceneListItem.cs" />
+    <Compile Include="UI\SmartObjects\HomeIconMenu.cs" />
+    <Compile Include="UI\SmartObjects\HomeIconMenuItem.cs" />
+    <Compile Include="UI\SmartObjects\PanelCalendarMeetingList.cs" />
+    <Compile Include="UI\SmartObjects\PanelCalendarMeetingListItem.cs" />
+    <Compile Include="UI\SmartObjects\DgeCalendarMeetingList.cs" />
+    <Compile Include="UI\SmartObjects\DgeCalendarMeetingListItem.cs" />
+    <Compile Include="UI\SmartObjects\PowerControlList.cs" />
+    <Compile Include="UI\SmartObjects\PowerControlListItem.cs" />
+    <Compile Include="UI\SmartObjects\RoutingList.cs" />
+    <Compile Include="UI\SmartObjects\RoutingListItem.cs" />
+    <Compile Include="UI\SmartObjects\SimpleNaveMenuItem.cs" />
+    <Compile Include="UI\SmartObjects\SimpleNavMenu.cs" />
+    <Compile Include="UI\SmartObjects\SystemStatusList.cs" />
+    <Compile Include="UI\SmartObjects\SystemStatusListItem.cs" />
+    <Compile Include="UI\SmartObjects\TechAudioControlList.cs" />
+    <Compile Include="UI\SmartObjects\TechAudioControlListItem.cs" />
+    <Compile Include="UI\SmartObjects\VCDialList.cs" />
+    <Compile Include="UI\SmartObjects\VCDialListItem.cs" />
+    <Compile Include="UI\Views\ActionSheetDefault.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\Views\APage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\Views\ASubPage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\Views\ASubPageWithCloseButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\Views\ControlRoomPanel\AudioFadersViewController.cs" />
+    <Compile Include="UI\Views\ControlRoomPanel\CameraControlViewController.cs" />
+    <Compile Include="UI\Views\ControlRoomPanel\PowerViewController.cs" />
+    <Compile Include="UI\Views\ControlRoomPanel\TVControlViewController.cs" />
+    <Compile Include="UI\Views\ControlRoomPanel\DMRoutingViewController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\Views\ControlRoomPanel\TechPageViewController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\Views\ControlRoomPanel\RecordingViewController.cs" />
+    <Compile Include="UI\Views\ControlRoomPanel\RoomControlViewController.cs" />
+    <Compile Include="UI\Views\ControlRoomPanel\SettingsViewController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\Views\BootPageViewController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\Views\ControlRoomPanel\UsbRoutingViewController.cs" />
+    <Compile Include="UI\Views\ControlRoomPanel\UserPageViewController.cs" />
+    <Compile Include="UI\Views\VC\VCDialViewController.cs" />
+    <Compile Include="UI\Views\VC\VCInCallViewController.cs" />
+    <Compile Include="UI\Views\VC\VCKeyboardViewController.cs" />
+    <Compile Include="UI\Views\VC\VCKeypadViewController.cs" />
+    <Compile Include="UI\Views\VC\VCMainMenuViewController.cs" />
+    <Compile Include="UI\Views\VC\VCShareViewController.cs" />
+    <Compile Include="UI\Views\VC\VCSubViewControllerBase.cs" />
+    <Compile Include="UI\Views\VC\VCViewController.cs" />
+    <Compile Include="UI\Views\TextFieldEntryViewController.cs" />
+    <Compile Include="WebApp\DashboardXPanelHandler.cs" />
+    <Compile Include="WebApp\Files\XPanelFileHandler.cs" />
+    <Compile Include="SoftwareUpdate\AppFileInfo.cs" />
+    <Compile Include="SoftwareUpdate\PanelUpdateManifestHandler.cs" />
+    <Compile Include="SoftwareUpdate\SoftwareUpdate.cs" />
+    <Compile Include="SoftwareUpdate\SoftwareUpdateRequestHandler.cs" />
+    <Compile Include="UI\Joins\Analogs.cs" />
+    <Compile Include="UI\BaseUIController.cs" />
+    <Compile Include="UI\Joins\Digitals.cs" />
+    <Compile Include="UI\Joins\Serials.cs" />
+    <Compile Include="UI\Joins\SmartObjects.cs" />
+    <Compile Include="UI\SmartObjects\SetupMenu.cs" />
+    <Compile Include="UI\SmartObjects\SetupMenuItem.cs" />
+    <Compile Include="UI\SmartObjects\NavIconMenu.cs" />
+    <Compile Include="UI\SmartObjects\NavIconMenuItem.cs" />
+    <Compile Include="WebApp\Files\StaticFileHandler.cs" />
+    <Compile Include="WebApp\AppDashboardContentHandler.cs" />
+    <Compile Include="WebApp\AppDashboardHandler.cs" />
+    <Compile Include="WebApp\XPanelRedirectHandler.cs" />
+    <None Include="Properties\ControlSystem.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebApp\Templates\softwareupdates.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebApp\Files\js\dashboard-app-scripts.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebApp\Templates\xpanel.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebApp\Templates\install.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\JaneStreet_UI_Aud_DGE-200_MJ_v1_03.sgd" />
+    <EmbeddedResource Include="Resources\JaneStreet_UI_Aud_TSW-1060_MJ_v1_03.sgd" />
+    <EmbeddedResource Include="Resources\JaneStreet_UI_Aud_TSW-1060_MJ_v1_03.VTZ.hash" />
+    <EmbeddedResource Include="Resources\JaneStreet_UI_Aud_DGE-200_MJ_v1_03.VTZ.hash" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\fusionrooms.csv" />
+    <None Include="Resources\JaneStreet_UI_Aud_DGE-200_MJ_v1_03.vtz" />
+    <None Include="Resources\JaneStreet_UI_Aud_TSW-1060_MJ_v1_03.vtz" />
+    <EmbeddedResource Include="Resources\JaneStreet_UI_CrestronApp_MJ_v1_03.sgd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

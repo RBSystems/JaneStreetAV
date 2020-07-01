@@ -1,0 +1,333 @@
+<div id="xpanel-container"></div>
+
+<script>
+    var ranOnce = false;
+			var projectHeight = "100%";
+			var projectWidth = "100%";
+			var versionNum = "";
+			var compileTime = "";
+			var airInstallerLocation = "https://get.adobe.com/air/";
+			var proxyInstallerLocation = "https://crestrondevicefiles.blob.core.windows.net/app/crestron/CrestronAssistant_v1.00.air";
+			
+			function loadEnvironmentFile(){
+			    getProjectInfo('/static/xpanel/Dimensions.xml');
+				if (projectHeight == "100%" || projectWidth == "100%")
+				{
+				    getProjectInfo('/static/xpanel/Environment.xml');
+				}
+				setupFlash();
+			}
+			
+			function getProjectInfo(xmlURL){
+				$.ajax({
+				url: xmlURL,
+				type: 'GET',
+				dataType: 'xml',
+				timeout: 90000,
+				async: false,
+				cache: false,
+				error: function(){
+					
+				},
+				success: function(xml){
+					compileTime = $(xml).find("CompileTimestamp").first().text();
+					versionNum = $(xml).find("VersionNumber").first().text();					
+					
+				
+				
+					$("Properties",xml).first().each(function(){
+						$(this).find("PositionAndSize").first().each(function(){
+								if (ranOnce) return;
+								
+								projectHeight = findElementByIndex($(this), "Height", 0);
+								projectWidth = findElementByIndex($(this), "Width", 0);
+		
+							}
+						);	
+						
+						
+					});										
+				} //Closing: success: function(xml){
+				});
+			}
+			
+			//align the swf vertically when the browser is being resized
+			$(document).ready(function()
+			{
+			   $(window).on("resize", function()
+			   {
+					//alignContainer();
+			   });                                                           
+			});
+			
+			function findElementByIndex(node, element, idx)
+			{
+				var i;
+				var retVal;
+				
+				i = 0;
+				
+				node.find(element).each(function(){
+					if (i == idx)
+					{
+						retVal = $(this).text();
+					}
+					i++
+				});
+				return retVal
+			}
+			
+			//align the swf vertically
+			function alignContainer()
+			{
+				var browserHeight = 0;
+				
+				if( typeof( window.innerWidth ) == 'number' ) 
+				{
+					//Non-IE
+					browserHeight = window.innerHeight;
+				} 
+				else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) 
+				{
+					//IE 6+ in 'standards compliant mode
+					browserHeight = document.documentElement.clientHeight;
+				} 
+				else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) 
+				{
+					//IE 4 compatible
+					browserHeight = document.body.clientHeight;
+				}
+				
+				var calculatedMargin = (browserHeight - projectHeight) * 0.5;
+				if( calculatedMargin < 0)
+				{
+					calculatedMargin = 0;
+				}
+				
+				var bodyElement = document.getElementsByTagName("body");
+				bodyElement[0].style.marginTop = calculatedMargin + "px";
+			}
+			
+			function getURLParam(strParamName)
+			{
+			  var strReturn = "";
+			  var strHref = window.location.href;
+			  if ( strHref.indexOf("?") > -1 ){
+				var strQueryString = strHref.substr(strHref.indexOf("?"));
+				var aQueryString = strQueryString.split("&");
+				for ( var iParam = 0; iParam < aQueryString.length; iParam++ ){
+				  if ( aQueryString[iParam].indexOf(strParamName.toLowerCase() + "=") > -1 ){
+					var aParam = aQueryString[iParam].split("=");
+					strReturn = aParam[1];
+					break;
+				  }
+				}
+			  }
+			  return unescape(strReturn);
+			}
+			
+			function addParamsToEmbedObject(embedObj, isMSIE)
+			{								
+				var param = document.createElement("param")
+				param.setAttribute("name", "classid");
+				param.setAttribute("value", "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000");
+				embedObj.appendChild(param);
+				
+				var param = document.createElement("param")
+				param.setAttribute("name", "movie");
+				param.setAttribute("value", "container.swf");
+				embedObj.appendChild(param);
+				
+				var param = document.createElement("param")
+				param.setAttribute("name", "height");
+				param.setAttribute("value", projectHeight);
+				embedObj.appendChild(param);
+				
+				var param = document.createElement("param")
+				param.setAttribute("name", "width");
+				param.setAttribute("value", projectWidth);
+				embedObj.appendChild(param);
+				
+				var param = document.createElement("param")
+				param.setAttribute("name", "quality");
+				param.setAttribute("value", "high");
+				embedObj.appendChild(param);
+				
+				var param = document.createElement("param")
+				param.setAttribute("name", "bgcolor");
+				param.setAttribute("value", "#000000");
+				embedObj.appendChild(param);
+				
+				var param = document.createElement("param")
+				param.setAttribute("name", "play");
+				param.setAttribute("value", "true");
+				embedObj.appendChild(param);
+				
+				var param = document.createElement("param")
+				param.setAttribute("name", "loop");
+				param.setAttribute("value", "true");
+				embedObj.appendChild(param);
+				
+				var param = document.createElement("param")
+				param.setAttribute("name", "wmode");
+				param.setAttribute("value", "transparent");
+				embedObj.appendChild(param);
+				
+				var param = document.createElement("param")
+				param.setAttribute("name", "scale");
+				param.setAttribute("value", "noscale");
+				embedObj.appendChild(param);
+								
+				var param = document.createElement("param")
+				param.setAttribute("name", "menu");
+				param.setAttribute("value", "false");
+				embedObj.appendChild(param);
+								
+				var param = document.createElement("param")
+				param.setAttribute("name", "devicefont");
+				param.setAttribute("value", "false");
+				embedObj.appendChild(param);
+								
+				var param = document.createElement("param")
+				param.setAttribute("name", "salign");
+				param.setAttribute("value", "");
+				embedObj.appendChild(param);
+								
+				var param = document.createElement("param")
+				param.setAttribute("name", "allowScriptAccess");
+				param.setAttribute("value", "sameDomain");
+				embedObj.appendChild(param);
+				
+				if (isMSIE == false)
+				{
+					var FlashVars = createFlashVars();
+					
+					var param = document.createElement("param")
+					param.setAttribute("name", "FlashVars");
+					param.setAttribute("value", FlashVars);
+					embedObj.appendChild(param);
+				}
+			}
+			
+			function createFlashVars()
+			{
+				var host = "{{ processor_ip_address }}";
+				
+				var port = "{{ xpanel_port }}";
+				var ipid = "{{ xpanel_ipid }}";
+				var enableSSL = "false";
+				
+				var FlashVars = "host=" + host + "&ipid=" + ipid + "&port=" + port + "&enableSSL=" + enableSSL + "&SupportsSerialAppend=true";
+				
+				if(versionNum != "")
+				{
+					FlashVars += "&versionNum=" + versionNum;
+				}
+				
+				if(compileTime != "")
+				{
+					FlashVars += "&compileTimestamp=" + compileTime;
+				}
+				
+				if(airInstallerLocation != "")
+				{
+					FlashVars += "&airinstallerlocation=" + airInstallerLocation;
+				}
+				
+				if(proxyInstallerLocation != "")
+				{
+					FlashVars += "&proxyInstallerLocation=" + proxyInstallerLocation;
+				}
+				
+				return FlashVars;
+			}
+			
+			function createIEEmbedObj(flashDiv)
+			{
+				var FlashVars = createFlashVars();
+				
+				flashDiv.innerHTML = "<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000'><param name='movie' value='container.swf?versionNum="+ versionNum +" '><param name='menu' value='false' /> <param name='flashVars' value='" + FlashVars + "'></object>";
+				return flashDiv.firstChild;
+			}
+			
+			function setupFlash()
+			{
+				if (ranOnce) return;
+				
+				ranOnce = true;
+				
+				/*alignContainer();*/
+				
+				var flashDiv = document.createElement('div');
+				flashDiv.setAttribute("position", "absolute");
+				flashDiv.setAttribute("height", projectHeight);
+				flashDiv.setAttribute("align", "center");
+				flashDiv.setAttribute("id", "flashDiv");
+				document.getElementById("xpanel-container").appendChild(flashDiv);
+				
+				//var flashVars = { "address" : getURLParam("address"), "ipid" : getURLParam("ipid"), "port" : getURLParam("port") };
+				var embedObj;
+				
+				var isMSIE = /*@cc_on!@*/false;
+				
+				if (isMSIE)
+				{    
+					embedObj = createIEEmbedObj(flashDiv);
+				}
+				else
+				{				
+					embedObj = document.createElement('object');
+					embedObj.setAttribute('data', '/static/xpanel/container.swf?versionNum=' + versionNum);
+					embedObj.setAttribute('menu', 'false');
+					embedObj.setAttribute('type', 'application/x-shockwave-flash');
+				}
+				
+				embedObj.setAttribute("width", projectWidth);
+				embedObj.setAttribute("height", projectHeight);
+				embedObj.setAttribute("position", "relative");
+				embedObj.setAttribute("id", "container");
+				
+				addParamsToEmbedObject(embedObj, isMSIE);
+				
+				flashDiv.appendChild(embedObj);
+				
+			}
+			
+			//our on dom loaded code for cross browser
+    (function(i) {
+        var u = navigator.userAgent;
+        var e = /*@cc_on!@*/false;
+        var st =
+            setTimeout;
+        if (/webkit/i.test(u)) {
+            st(function() {
+                var dr = document.readyState;
+                if (dr == "loaded" || dr == "complete") {
+                    i()
+                } else {
+                    st(arguments.callee, 10);
+                }
+            }, 10);
+        } else if ((/mozilla/i.test(u) && !/(compati)/.test(u)) || (/opera/i.test(u))) {
+            document.addEventListener("DOMContentLoaded", i, false);
+        } else if (e) {
+            (
+                function() {
+                    var t = document.createElement('doc:rdy');
+                    try {
+                        t.doScroll('left');
+                        i();
+                        t = null;
+                    } catch (e) {
+                        st(arguments.callee, 0);
+                    }
+                })();
+        } else {
+            window.onload = i;
+        }
+    })(loadEnvironmentFile);
+
+    $('body main').css("cssText", "padding: 0 !important; height: calc(100vh - 48px);");
+    $('body main').addClass('bg-light');
+    $('#flashDiv').css("text-align", "left");
+</script>

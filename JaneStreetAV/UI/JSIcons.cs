@@ -1,0 +1,31 @@
+﻿namespace JaneStreetAV.UI
+{
+    public enum JSIcons
+    {
+        AudioLevels,
+        AudioRouting,
+        Camera,
+        Cancel,
+        Keypad,
+        Lights,
+        MicMute,
+        MicMuted,
+        Power,
+        Presets,
+        Recording,
+        Search,
+        Settings,
+        Share,
+        TV,
+        Video,
+        VideoConf,
+        KeyboardClose,
+        ChevronUp,
+        ChevronDown,
+        VolumeMute,
+        Phone,
+        Pause,
+        Laptop,
+        Warning
+    }
+}
